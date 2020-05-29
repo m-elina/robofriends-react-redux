@@ -25,7 +25,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class App extends React.Component {
-
     // fügt die Roboter aus robots.js in den Array oben ein
     componentDidMount() {
         this.props.onRequestRobots();
